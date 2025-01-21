@@ -15,11 +15,11 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": {
-        "default": "./dist/esm/mersenne-twister.js"
-      }
+      "import": "./dist/esm/mersenne-twister.js",
+      "require": "./dist/esm/mersenne-twister.js"
     }
   },
+  "main": "./dist/esm/mersenne-twister.js",
   "module": "./dist/esm/mersenne-twister.js",
   "files": [
     "dist",
